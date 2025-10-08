@@ -1,0 +1,119 @@
+
+html {
+  background-color: #F5FAF5;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+
+h1 {
+  color: #063970;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Times;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+
+p em {
+  color: #444;
+}
+
+
+.main-photo {
+  display: block;
+  margin: 40px auto;
+  width: 80%;   
+  height: auto;
+  border: 4px solid #063970;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+
+
+.left {
+  max-width: 800px;
+  margin: 30px 0;
+  text-align: left; 
+}
+
+
+.icon-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start; 
+  margin-bottom: 10px;
+}
+
+.icon-heading img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.icon-heading h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #063970;
+}
+
+
+.left ul {
+  margin: 10px 0 20px 20px;
+  padding: 0;
+  text-align: left;   
+}
+
+.left li {
+  margin-bottom: 5px;
+}
+
+
+.left.recognized {
+  border: 2px solid #063970;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fdfdfd;
+  margin-top: 30px;
+}
+
+
+.left.sources {
+  border: 2px solid #063970;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fdfdfd;
+  margin-top: 30px;  
+}
+
+.left.sources h3 {
+  text-align: left;  
+  color: #063970;
+  margin-bottom: 10px;
+}
+
+.left.sources ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.left.sources li {
+  margin-bottom: 5px;
+}
